@@ -1,0 +1,333 @@
+*,
+*::after,
+*::before {
+		box-sizing: border-box;
+		padding: 0;
+    margin: 0;
+    }
+
+    body {
+        margin: auto;
+        max-width: 1440px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 36px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        min-height: 154px;
+        background: rgba(7, 32, 63, 1);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
+
+    .nickName {
+        padding-left: 135px;
+        text-decoration: none;
+    }
+
+    .navUl {
+        padding-right: 135px;
+        gap: 40px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sectionOne {
+        min-height: 801px;
+        background: #07203f;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionOneLeftBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 49px;
+    }
+
+    h1 {
+        width: 705px;
+        font-weight: 800;
+        font-size: 64px;
+        text-transform: uppercase;
+        color: #d9d9d9;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 36px;
+        color: #d9d9d9;
+        max-width: 605px;
+        min-height: 209px;
+        display: flex;
+        align-items: center;
+    }
+
+    button:active {
+        transform: translateY(2px);
+        }
+
+    .sectionOneBtn {
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #000;
+        width: 605px;
+        height: 106px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    .sectionOneImg {
+        border-bottom: 5px solid #d9d9d9;
+        border-radius: 383px;
+        width: 516px;
+        height: 516px;  
+        object-fit: cover;
+    }
+
+    .sectionTwo {
+        min-height: 796px;
+        background-image: url(assets/image/фон\ блок2.jpg);
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-weight: 800;
+        font-size: 72px;
+        text-transform: uppercase;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 135px 0 70px 0;
+    }
+
+    .sectionTwoImg {
+        width: 346px;
+        height: 229px;
+        object-fit: cover;
+    }
+
+    .shin {
+        width: 350px;
+        height: 350px;
+        background: #07203f;
+        border: 2px solid rgb(24, 119, 243);
+        font-weight: 800;
+        font-size: 64px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .wash {
+        width: 350px;
+        height: 350px;
+        background: #8a8600;
+        border: 2px solid rgb(255, 255, 255);
+        font-weight: 800;
+        font-size: 64px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sto {
+        width: 350px;
+        height: 350px;
+        background: #8a8600;
+        border: 2px solid rgb(255, 255, 255);
+        font-weight: 800;
+        font-size: 64px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sectionTwoDiv {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .sectionThree {
+        min-height: 1795px;
+        background: #07203f;
+}
+
+    .sectionThreeDiv {
+        max-width: 550px;
+}
+
+    .project {
+        display: flex;
+        justify-content: space-evenly;
+        display: flex;
+            padding-bottom: 135px;
+}
+    .sectionThreeImg {
+        width: 540px;
+        height: 366px;
+        object-fit: cover;
+}
+
+    .sectionThreeSpan {
+        font-weight: 800;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: #d9d9d9;
+}
+
+    .sectionFour {
+        min-height: 1141px;
+        background-image: url(assets/image/background\ block\ 4.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+    .fieldset {
+        width: 759px;
+        height: 662px;
+        background: rgba(255, 255, 255, 0.459);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 38px;
+}
+
+    input {
+        width: 631px;
+        height: 98px;
+        background: rgb(255, 255, 255);
+        border: none;
+        font-size: 35px;
+        padding-left: 16px;
+}
+
+    ::placeholder {
+        font-weight: 500;
+        font-size: 35px;
+        color: #000;
+        padding-left: 16px;
+
+}
+
+    .sectionFourBtn {
+        width: 266px;
+        height: 68px;
+        font-size: 35px;
+        border-radius: 100px;
+        border: none;
+        cursor: pointer;
+}
+
+    .sectionFourBtnDiv {
+        min-width: 631px;
+        display: flex;
+        justify-content: space-between;
+}
+
+    .sectionFive {
+        min-height: 882px;
+        background-color: #07203f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+    .sectionFiveMain {
+        display: flex;
+        gap: 60px;
+        color: white;
+}
+
+    .sectionFiveDiv {
+        width: 350px;
+        height: 350px;
+        border-radius: 50px;
+        background-image: url(assets/image/BgBtn1.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+}
+
+    .sectionFiveDiv2 {
+        width: 350px;
+        height: 350px;
+        border-radius: 50px;
+        background-image: url(assets/image/BgBtn2.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+}
+
+    .sectionFiveDiv3 {
+        width: 350px;
+        height: 350px;
+        border-radius: 50px;
+        background-image: url(assets/image/BgBtn3.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+}
+    .sectionFiveDivAHref {
+        width: 300px;
+        height: 70px;
+        background-color: rgba(132, 132, 132, 0.809);
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+    footer {
+        max-width: 1440px;
+        height: 154px;
+        background: rgba(7, 32, 63, 1);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid white;
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1439px) {
+        header {
+            min-height: 342px;
+        }
+    }
