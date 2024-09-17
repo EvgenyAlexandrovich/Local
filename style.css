@@ -499,7 +499,7 @@
         }
         .sectionThreeImg {
             width: 390px;
-            height: 265px;
+            height: 255px;
             margin-top: 15px;
         }
         .sectionThreeImg:nth-child(even) {
@@ -555,6 +555,9 @@
             flex-direction: column;
             align-items: center;
             gap: 35px;
+        }
+        .sectionFourBtnDiv {
+            min-width: auto;
         }
         .sectionFourBtn {
             width: 196px;
